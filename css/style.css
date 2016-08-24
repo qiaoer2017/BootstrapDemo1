@@ -1,8 +1,21 @@
 @charset "UTF-8";
 body {
     font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+    color: #666;
 }
 
+.pencil-icon {
+    width: 40px;
+    height: 40px;
+    background: #40d2b1;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    margin-right: 20px;
+}
+
+/*导航*/
 .navbar-default {
     background: #fff;
     border: none;
@@ -20,7 +33,6 @@ body {
 .navbar-nav > li a {
     height: 70px;
     line-height: 35px;
-    color: #777;
     font-size: 16px;
     font-weight: 400;
 }
@@ -38,6 +50,8 @@ body {
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
 }
+
+/*======home======*/
 
 #home {
     margin-top: 70px;
@@ -68,4 +82,80 @@ body {
 
 #home img {
     margin-top: 30px;
+}
+
+/*======bbs======*/
+#bbs {
+    padding: 80px 0;
+    text-align: center;
+}
+
+#bbs a {
+    color: #666;
+    text-decoration: none;
+}
+
+#bbs .col-md-4 {
+    padding: 15px;
+
+}
+
+#bbs .col-md-4:hover {
+    background: rgb(238, 238, 238);
+    background: rgba(238, 238, 238, 0.39);
+    border-radius: 5px;
+    box-shadow: 1px 1px 11px rgba(50, 50, 50, 0.3);
+}
+
+#bbs img {
+    margin: 0 auto;
+}
+
+/*html5*/
+#html5 {
+    padding: 80px 0;
+    background: #f8f8f8;
+}
+
+#html5 h2, #bootstrap h2, #latest-courses h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#html5 p, #bootstrap p {
+    line-height: 25px;
+}
+
+/*bootstrap*/
+#bootstrap {
+    padding: 80px 0;
+    background: #fff;
+}
+
+/*latest course*/
+#latest-courses {
+    padding: 80px 0;
+    background: #f8f8f8;
+    text-align: center;
+}
+
+#latest-courses h2 {
+    margin-bottom: 70px;
+}
+
+#latest-courses .course {
+    background: #fff;
+    padding: 0;
+}
+
+#latest-courses .btn-default {
+    color: #40d2b1;
+    border: 1px solid #40d2b1;
+    margin: 20px 0 30px;
+    border-radius: 0;
+    padding: 10px 40px;
+}
+
+#latest-courses .course-row{
+    margin-bottom: 20px;
 }
