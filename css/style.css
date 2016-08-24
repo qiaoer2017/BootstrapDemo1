@@ -19,7 +19,8 @@ body {
 .navbar-default {
     background: #fff;
     border: none;
-    box-shadow: 0 2px 6px rgba(50, 50, 50, 0.25)
+    box-shadow: 0 2px 6px rgba(50, 50, 50, 0.25);
+    z-index: 1000;
 }
 
 .navbar-header > a.navbar-brand {
@@ -97,7 +98,11 @@ body {
 
 #bbs .col-md-4 {
     padding: 15px;
-
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 #bbs .col-md-4:hover {
@@ -147,6 +152,16 @@ body {
     background: #fff;
     padding: 0;
     margin-bottom: 20px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#latest-courses .course:hover {
+    border-radius: 5px;
+    box-shadow: 1px 1px 11px rgba(50, 50, 50, 0.3);
 }
 
 #latest-courses img {
@@ -175,6 +190,8 @@ body {
 #latest-courses .course-row {
     margin-bottom: 20px;
 }
+
+
 
 /*app*/
 #app {
@@ -240,15 +257,15 @@ body {
 #contacts input[type=submit] {
     background: #40d2b1;
     color: white;
-    font-size:20px;
+    font-size: 20px;
     letter-spacing: 10px;
 }
 
-#contacts footer{
+#contacts footer {
     text-align: center;
     margin-top: 90px;
 }
 
-#contacts .filter{
-    padding-bottom:20px;
+#contacts .filter {
+    padding-bottom: 20px;
 }
